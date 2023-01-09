@@ -1,0 +1,64 @@
+body{
+
+    background-color: aquamarine;
+    top: 0;
+    margin: 0;
+}
+
+.Music_Player{
+
+    align-items: center;
+    padding: 5x;
+    text-align: center;
+    height: auto;
+    margin-top: 15%;
+}
+
+.Track_Art{
+
+   
+    padding: 2px;
+    height: auto;
+
+}
+img{
+
+    width: 170px;
+    height:180px;
+    border-radius: 5px;
+
+}
+
+.Button{
+
+    display: inline-flex;
+    
+
+}
+.Button> div{
+    padding: 5px;
+    row-gap: 5px;
+}
+
+.Seek_container{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.Seek_container>.Seek_Slider{
+
+    display: inline-flex;
+    padding: 5px;
+    row-gap: 5px;
+}
+
+.Volumn{
+
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 2px;
+
+}
+

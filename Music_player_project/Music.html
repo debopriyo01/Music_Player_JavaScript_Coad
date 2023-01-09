@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical_Application</title>
+    <link rel="stylesheet" href="Music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<body>
+
+    <div class="Music_Player">
+
+        <div class="Details">
+
+
+            <div class="Now_Playing">Track x of y</div>
+            <div class="Track_Art"></div>
+            <div class="Track_Name"></div>
+            <div class="Track_Artist"></div>
+
+        </div>
+
+        <div class="Button">
+
+            <!--The Left Side Button -->
+            <div class="prev_button">
+               
+             <i class="fa-solid fa-backward-step"></i> 
+            </div>
+            <!--The middle Button -->
+            <div class="Play_Button">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+
+            <!--The Right side Buuton -->
+            <div class="Next_button">
+                 <i class="fa-solid fa-forward-step"></i> 
+            </div>
+  
+        </div>
+
+        <!-- Hear The seeker and The Duretion Button  will be Get Created -->
+
+        <div class="Seek_container">
+
+            <div class="Seek_Slider">
+                <!-- At The Right side we will be having The Current Time , input type=range , in the left side total_Duretion time  -->
+
+                <div class="Current_time">00.00</div>
+
+                <!-- As it is 0 it  will be starting from the begining -->
+                <input type="range" name="range" min="0" max="100" value="0" class="Seek_Slider">
+
+                <div class="Total_duretion">00.00</div>
+
+            </div>
+        </div>
+
+        <div class="Volumn">
+
+            <div class="Volumn_Up"><i class="fa-solid fa-volume-high"></i></div>
+
+            <input type="range" name="range" id="Volumn_Slider" min="0" max="100" value="100" class="volumn_slider">
+
+            <div class="Volumn_down"><i class="fa-solid fa-volume-low"></i></div>
+       </div>
+
+       <script src="Music.js"></script>
+</body>
+
+</html>
